@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="asset/css/full.min.css" rel="stylesheet" type="text/css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        /* Custom colors */
+        .bg-primary {
+            background-color: #5356FF;
+        }
+
+        .bg-secondary {
+            background-color: #378CE7;
+        }
+
+        .bg-accent {
+            background-color: #67C6E3;
+        }
+
+        .bg-light {
+            background-color: #DFF5FF;
+        }
+
+        .text-primary {
+            color: #5356FF;
+        }
+
+        .text-secondary {
+            color: #378CE7;
+        }
+
+        .text-accent {
+            color: #67C6E3;
+        }
+
+        .btn-primary {
+            background-color: #5356FF;
+        }
+
+        .btn-secondary {
+            background-color: #378CE7;
+        }
+
+        .btn-accent {
+            background-color: #67C6E3;
+        }
+
+        .btn-light {
+            background-color: #DFF5FF;
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            /* 16:9 */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+        </div>
+
+        <div class="navbar-end">
+            <div class="dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h7" />
+                    </svg>
+                </div>
+                <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a href="https://www.Instagram.com/dwibudifitriadi">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/@dwibudifitriadi">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="btm-nav bg-white fixed bottom-0 left-0 right-0 z-50">
+        <a href="index.html" class="">
+            <i class='bx bx-home h-5 w-5'></i></a>
+            <a href="timeline.html" class="active">
+                <i class='bx bx-time h-5 w-5' ></i>
+            </a>
+            <a href="project.html" class="">
+                <i class='bx bx-folder h-5 w-5' ></i>
+            </a>
+    </div>
+    <section class="flex items-center justify-center bg-cover bg-center bg-white">
+        <div class="container">
+            <div class="card w-96">
+                <div class="flex items-center p-6">
+                    <img class="w-24 mask mask-squircle object-cover" src="asset/img/photo1702092216.jpeg" alt="Photo">
+                    <div class="ml-6">
+                        <h3 class="text-xl text-primary font-bold">Dwi Budi Fitri Adi</h3>
+                        <p class="text-gray-600">No Player Character</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <div class="">
+        <h1 class="text-center font-black text-3xl">Timeline</h1>
+        <section class="relative flex flex-col justify-center bg-slate-50 overflow-hidden antialiased bg-white">
+            <div class="w-full  px-4 md:px-6 ">
+                <div class="flex flex-col justify-center divide-y divide-slate-200 pt-4">
+
+
+                    <div class="w-full max-w-1xl mx-auto">
+
+                        <!-- Vertical Timeline #3 -->
+                        <div
+                            class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:ml-[8.75rem] md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+
+                            <!-- Item #1 -->
+                            <div class="relative">
+                                <div class="md:flex items-center md:space-x-4 mb-3">
+                                    <div class="flex items-center space-x-4 md:space-x-2 md:space-x-reverse">
+                                        <!-- Icon -->
+                                        <div
+                                            class="flex items-center justify-center w-10 h-10 rounded-full bg-white shadow md:order-1">
+                                            <svg class="fill-blue-500" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16">
+                                                <path
+                                                    d="M8 0a8 8 0 1 0 8 8 8.009 8.009 0 0 0-8-8Zm0 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" />
+                                            </svg>
+                                        </div>
+                                        <!-- Date -->
+                                        <time class="text-sm font-medium text-indigo-500 md:w-28">Apr 7, 2021</time>
+                                    </div>
+                                    <!-- Title -->
+                                    <div class="text-slate-500 ml-14"><span class="text-slate-900 font-bold">SMKN 1 Cipeundeuy</span></div>
+                                </div>
+                                <!-- Card -->
+                                <div
+                                    class="bg-white p-4 rounded border border-slate-200 text-slate-500 shadow ml-14 md:ml-44">
+                                    Di sekolah ini, saya memilih jurusan <span class="text-secondary">Rekayasa Perangkat Lunak</span>
+                                    karena minat saya berkaitan dengan <span class="text-secondary">Teknologi dan Software.</span>
+                                    Setelah lulus dari sini, saya mempunyai basic skill tentang Laravel, Bootstrap, PHP dan desain
+                                    database MySQL.</div>
+                            </div>
+                            <div class="relative">
+                                <div class="md:flex items-center md:space-x-4 mb-3">
+                                    <div class="flex items-center space-x-4 md:space-x-2 md:space-x-reverse">
+                                        <!-- Icon -->
+                                        <div
+                                            class="flex items-center justify-center w-10 h-10 rounded-full bg-white shadow md:order-1">
+                                            <svg class="fill-blue-500" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16">
+                                                <path
+                                                    d="M8 0a8 8 0 1 0 8 8 8.009 8.009 0 0 0-8-8Zm0 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" />
+                                            </svg>
+                                        </div>
+                                        <!-- Date -->
+                                        <time class="text-sm font-medium text-indigo-500 md:w-28">Apr 7, 2024</time>
+                                    </div>
+                                    <!-- Title -->
+                                    <div class="text-slate-500 ml-14"><span class="text-slate-900 font-bold">Universitas Teknologi Bandung</span></div>
+                                </div>
+                                <!-- Card -->
+                                <div
+                                    class="bg-white p-4 rounded border border-slate-200 text-slate-500 shadow ml-14 md:ml-44">
+                                    Melanjutkan minat dan bakat yang sudah dipelajari sebelumnya, saya memilih kuliah di UTB dengan
+                                    tujuan untuk mengasah dan memperbanyak skill.</div>
+                            </div>
+                        </div>
+                        <!-- End: Vertical Timeline #3 -->
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical px-5 text-base-content">
+            <li>
+                <div class="timeline-middle">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="timeline-start md:text-end mb-10">
+                    <time class="font-mono italic">
+                        <p>2021</p>
+                    </time>
+                    <div class="text-lg text-primary font-black">SMKN 1 Cipeundeuy KBB</div>
+                    Di sekolah ini, saya memilih jurusan <span class="text-secondary">Rekayasa Perangkat Lunak</span>
+                    karena minat saya berkaitan dengan <span class="text-secondary">Teknologi dan Software.</span>
+                    Setelah lulus dari sini, saya mempunyai basic skill tentang Laravel, Bootstrap, PHP dan desain
+                    database MySQL.
+                </div>
+                <hr />
+            </li>
+            <li>
+                <hr />
+                <div class="timeline-middle">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="timeline-end mb-10">
+                    <time class="font-mono italic">
+                        <p>2024</p>
+                    </time>
+                    <div class="text-lg font-black text-primary">
+                        <p>Universitas Teknologi Bandung</p>
+                    </div>
+                    Melanjutkan minat dan bakat yang sudah dipelajari sebelumnya, saya memilih kuliah di UTB dengan
+                    tujuan untuk mengasah dan memperbanyak skill.
+                </div>
+                <hr />
+            </li>
+        </ul> -->
+    </div>
+
+    <footer class="footer mt-5 mb-20 footer-center p-4 text-base-content">
+        <aside>
+            <p>© 2024 DBFA, All right reserved.</p>
+        </aside>
+    </footer>
+    <script src="asset/js/3.4.4"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
